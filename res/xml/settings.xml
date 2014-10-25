@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<PreferenceCategory 
+        android:title="Login Credentials"
+        android:key="category">
+
+    <Preference
+        android:key="twitter"
+        android:summary="@string/login_with_twitter_credentials"
+        android:title="@string/login_to_twitter"
+        />
+    <Preference
+        android:key="facebook"
+        android:summary="@string/login_with_facebook_credentials"
+        android:title="@string/login_to_facebook" />
+    
+    </PreferenceCategory>
+
+</PreferenceScreen>

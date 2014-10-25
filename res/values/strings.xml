@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuickShare</string>
+    <string name="action_settings">Settings</string>
+    <string name="shareButton">Share</string>
+    <string name="send_to">Sent To:</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="login_to_twitter">Login to Twitter</string>
+    <string name="login_with_twitter_credentials">Login with Twitter credentials</string> 
+    <string name="login_to_facebook">Login to Facebook</string>
+    <string name="login_with_facebook_credentials">Login with Facebook credentials</string>
+
+</resources>

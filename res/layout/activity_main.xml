@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/mainEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:inputType="textMultiLine|textCapSentences" 
+        >
+    <requestFocus />
+    </EditText>
+
+    <TabHost
+        android:id="@+id/TabHost01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <include
+                    android:id="@+id/shareTab"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    layout="@layout/sharetab" >
+                </include>
+<!--
+                <include
+                    android:id="@+id/draftsTab"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/draftstab" >
+                </include>
+                -->
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>
